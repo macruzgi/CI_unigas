@@ -1,0 +1,31 @@
+ul, li{margin:0; border:0; list-style:none; padding:0;}
+	ul{height:21px;}
+
+	h1 { font-size:18px; }
+	p { line-height:18px; }
+
+	#info {	 margin:auto; width:600px; color:#333333; padding:10px; background:#f4f4f4; border:1px solid #DDD; }
+
+	#nicemenu { margin:0 auto; width:525px; margin-top:30px; border-bottom:dotted 1px #E5E5E5; z-index:10000; }
+	#nicemenu a { color:#0066CC; text-decoration:none; z-index:10000; }
+	#nicemenu a:hover { text-decoration:underline; z-index:10000; }	
+	#nicemenu li { display:inline; position:relative; z-index:10000; }
+	#nicemenu li span { position:relative; z-index:100000; padding:4px 4px 4px 6px;  border-bottom:none; line-height:18px; }	
+	#nicemenu li span a { font-weight:bold; padding:0 6px 0px 2px; z-index:10000; }	
+	#nicemenu li span.over { padding:4px 3px 4px 5px;  border-top:solid 1px #E5E5E5; border-left:solid 1px #E5E5E5;  border-right:solid 1px #999999; border-bottom:solid 1px #fff; z-index:10000; }
+	*+html #nicemenu li span.over {  border-top:solid 2px #E5E5E5; padding-bottom:3px; z-index:10000; } /* IE6 */
+	#nicemenu li span.over a { }
+	#nicemenu li span.over a:hover { text-decoration:none; z-index:10000; }
+	#nicemenu li span.active { padding:4px 3px 4px 5px;  border-top:solid 1px #E5E5E5; border-left:solid 1px #E5E5E5;  border-right:solid 1px #999999; border-bottom:solid 1px #fff;  z-index:10000; }
+	*+html #nicemenu li span.active {  border-top:solid 2px #E5E5E5; padding-bottom:3px; z-index:10000; }
+	#nicemenu li span.active a { }
+	#nicemenu li span.active a:hover { text-decoration:none; z-index:10000;}	
+	#nicemenu img.arrow { /*margin-left:4px;*/ cursor:pointer; z-index:10000; }
+	#nicemenu div.sub_menu { z-index:10000; display:none; position:absolute; left:0; top:0px; margin-top:18px; border-top:solid 1px #E5E5E5; border-left:solid 1px #E5E5E5; border-right:solid 1px #999999; border-bottom:solid 1px #999999; padding:4px; top:2px; width:160px; background:#FFFFFF; }
+	* html #nicemenu div.sub_menu { margin-top:23px; z-index:10000; } /* IE6 */
+	*+html #nicemenu div.sub_menu { margin-top:23px; z-index:10000; } /* IE7 */
+	#nicemenu div.sub_menu a:link, 
+	#nicemenu div.sub_menu a:visited, 
+	#nicemenu div.sub_menu a:hover{ display:block; font-size:11px; padding:4px; z-index:10000;}	
+	#nicemenu a.item_line { border-top:solid 1px #E5E5E5; padding-top:6px !important; margin-top:3px; z-index:10000; }
+	

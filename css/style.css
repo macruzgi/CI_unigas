@@ -1,0 +1,115 @@
+/* Provided by MyFreeTemplates.com */
+
+.sidetable {
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #404D69;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-decoration: none;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #C1C806;
+}
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+.sidetable2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.sidelinks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFBE00;
+	font-size: 12px;
+	font-weight: bold;
+}
+.baseline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #555555;
+}
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+a{
+	color: #C1C806;
+}
+
+.hidden{
+	position:absolute;
+	left:-5000px;
+	top:-5000px;
+	height:1px;
+	width:1px;
+	visibility:hidden;
+}
+
+.error{
+	font-size:11px;
+	color:#DF0000 !important;
+	font-weight:bold;
+}
+
+.notsuccess{
+	font-size:11px;
+	color:#48BD5A !important;
+	font-weight:bold;
+}
+
+
+.reports td{
+	border-bottom:#000000 thin solid;
+}
+
+.reports th{
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+}
+
+.links{
+	color: #C1C806;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+.tdrutas{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+}
+
+.tdrutasr{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7px;
+	color: #000000;
+}
